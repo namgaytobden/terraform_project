@@ -1,6 +1,6 @@
 module "linuxvm" {
     source = "../terraform/linuxvm"
-    resource_group_name="minirg"
+    resource_group_name="namgaytobdenrg"
     resource_group_location="Australia East"
     virtual_network_name="vnet1"
     subnet_name="subnet1"
